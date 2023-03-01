@@ -25,7 +25,7 @@ class MainKtTest {
             transferAmount = transferAmountMastercard
         )
 
-        assertEquals(0, result)
+        assertEquals(100, result)
     }
 
     @Test
@@ -114,7 +114,7 @@ class MainKtTest {
             transferAmount = transferAmountMir
         )
 
-        assertEquals(35, result)
+        assertEquals(350, result)
     }
 
 
